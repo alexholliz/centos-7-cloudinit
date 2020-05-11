@@ -1,0 +1,16 @@
+network:
+  version: 2
+  ethernets:
+    ens192:
+      dhcp4: false
+      addresses:
+        - 10.1.1.0/24
+      gateway4: 10.1.1.1
+      nameservers:
+        search:
+          - domain.com
+        addresses:
+          - 10.1.1.8
+          - 10.1.1.9
+local-hostname: centos-7-cloudinit
+instance-id: centos-7-cloudinit
