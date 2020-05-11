@@ -13,7 +13,8 @@ CentOS 7 Cloud-Init with vSphere Cloud Init GuestInfo
 ## Packer File
 
 I'm going to go through this template piece by piece, and sort of break down what each section does. Full files will be at the bottom.
-Variables
+
+### Variables
 
 This section sets up and contains variables that will be used later in the builder stage of the file.
 
@@ -22,7 +23,7 @@ These variables can be stored as:
 * Environment Variables: enclosed in double brackets.
 
 Additional Detail here: https://www.packer.io/docs/templates/user-variables/
-### Variables Section
+#### Variables Section
 ```
 "variables": {
     "vsphere-server": "vcenter.server",
