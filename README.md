@@ -2,13 +2,12 @@
 CentOS 7 Cloud-Init with vSphere Cloud Init GuestInfo
 
 ## References
-
-    https://www.packer.io/docs/builders/vmware/vsphere-iso/
-    https://www.packer.io/docs/templates/user-variables/
-    https://github.com/vmware/cloud-init-vmware-guestinfo
-    https://www.reddit.com/r/sysadmin/comments/ea669z/cloudinit_with_terraform_vsphere_centos8/faozvxs/
-    https://medium.com/@gmusumeci/how-to-use-packer-to-build-a-centos-template-for-vmware-vsphere-dea37d95b7b1
-    https://grantorchard.com/terraform-vsphere-cloud-init/
+* https://www.packer.io/docs/builders/vmware/vsphere-iso/
+* https://www.packer.io/docs/templates/user-variables/
+* https://github.com/vmware/cloud-init-vmware-guestinfo
+* https://www.reddit.com/r/sysadmin/comments/ea669z/cloudinit_with_terraform_vsphere_centos8/faozvxs/
+* https://medium.com/@gmusumeci/how-to-use-packer-to-build-a-centos-template-for-vmware-vsphere-dea37d95b7b1
+* https://grantorchard.com/terraform-vsphere-cloud-init/
 
 ## Packer File
 
