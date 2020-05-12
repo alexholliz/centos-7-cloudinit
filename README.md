@@ -1,5 +1,5 @@
 # centos-7-cloudinit
-CentOS 7 Cloud-Init with vSphere Cloud Init GuestInfo
+CentOS 7 Cloud-Init compatible Template with vSphere Cloud Init GuestInfo, built with Packer
 
 ## References
 * https://www.packer.io/docs/builders/vmware/vsphere-iso/
