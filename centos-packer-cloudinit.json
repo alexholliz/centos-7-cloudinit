@@ -65,7 +65,7 @@
     {
       "type": "shell",
       "inline": [
-        "sudo yum -y install cloud-init python-pip"
+        "sudo yum -y install cloud-init cloud-utils-growpart python-pip"
       ]
     },
     
